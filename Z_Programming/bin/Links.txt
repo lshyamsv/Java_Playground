@@ -1,0 +1,9 @@
+Understanding Instance variables - https://stackoverflow.com/questions/11522026/public-static-void-main-access-non-static-variable - Foo.java 
+
+
+Leetcode Motivation
+-------------------
+https://leetcode.com/discuss/career/354740/how-i-improved-my-problem-solving - Goto Link
+-------------------
+https://leetcode.com/discuss/general-discussion/353876/Leetcode-NOOB-(Struggling-with-easy)
+https://leetcode.com/discuss/general-discussion/318537/Consistent-Practice-Advice#
