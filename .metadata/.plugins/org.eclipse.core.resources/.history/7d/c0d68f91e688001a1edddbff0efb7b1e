@@ -1,0 +1,26 @@
+package ds.stack;
+
+public class app {
+
+	public static void main(String[] args) {
+		Stack stk = new Stack(2);
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(10);
+		
+		while(!stk.isEmpty()){
+			System.out.println(stk.pop());
+		}
+	}
+	
+	public static String reverseString(String S)
+	{
+		char [] s = S.toCharArray();
+		Charstack stk = new Charstack(s);
+
+		
+		return null;
+	}
+
+}

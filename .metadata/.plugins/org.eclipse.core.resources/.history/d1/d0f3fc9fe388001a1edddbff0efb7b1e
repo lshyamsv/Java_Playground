@@ -1,0 +1,13 @@
+package ds.stack;
+
+public class app {
+
+	public static void main(String[] args) {
+		Stack stk = new Stack(10);
+		//stk.
+		
+		
+
+	}
+
+}
