@@ -1,0 +1,34 @@
+package array;
+
+import java.util.Arrays;
+
+public class Centeredaverage {
+
+	public static int centeredAverage(int[] nums) {
+		
+		Arrays.sort(nums);
+		int n=nums.length-1;
+		int smallest = nums[0];
+		int largest = nums[nums.length - 1];
+		int average;
+		int output=0;
+		int count =0;
+
+		for (int i = smallest + 1; i < n-1; i++) {
+			count++;
+			output = output + nums[i];
+			output=output/count;
+		
+		}
+
+		return output;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] arr =  new int[]{1, 1, 5, 5, 10, 8, 7};
+		System.out.println(centeredAverage(arr));
+
+	}
+
+}

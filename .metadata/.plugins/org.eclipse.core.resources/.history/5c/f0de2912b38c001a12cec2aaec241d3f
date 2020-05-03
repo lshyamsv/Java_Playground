@@ -15,7 +15,7 @@ public class queue {
 		rear = -1;
 		noOfItems = 0;
 	}
-	// Queue learning from Imtiaz
+
 	public void insert(long j) {
 		if (isFull()) {
 			// rear = -1;
