@@ -1,0 +1,22 @@
+package codingbat;
+
+import java.util.Arrays;
+
+public class Biggdiff {
+	public int bigDiff(int[] nums) {
+		if (nums.length == 1)
+			return 0;
+
+		int min = Arrays.stream(nums).min().getAsInt();
+		int max = Arrays.stream(nums).max().getAsInt();
+		int diff = max - min;
+
+		return diff;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
