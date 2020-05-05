@@ -16,7 +16,7 @@ public class Sum28 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		System.out.println(Sum28.sum28(new int[] { 2, 2, 5, 13, 8, 8, 7 }));
 
 	}
