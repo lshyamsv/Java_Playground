@@ -1,0 +1,23 @@
+package codingbat;
+
+public class Shiftleft {
+	public static int[] shiftLeft(int[] nums) {
+
+		for (int i = 0; i < nums.length; i++) {
+			int temp = nums[i];
+
+			// nums[i]=nums[nums.length -1];
+			nums[nums.length - 1] = temp;
+
+		}
+		return nums;
+
+	}
+
+	public static void main(String[] args) {
+		int[] arr = new int[] { 1, 1, 5, 5, 10, 8, 7 };
+		System.out.println(shiftLeft(arr));
+
+	}
+
+}
