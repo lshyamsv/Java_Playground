@@ -11,10 +11,13 @@ public class Notalone {
 		}
 
 		for (int i = 1; i < nums.length - 2; i++) {
-			if (nums[i] == val && nums[i] != nums[i - 1]&& nums[i] != nums[i + 1]) 
+			if (nums[i] == val && nums[i] != nums[i - 1]
+					&& nums[i] != nums[i + 1]) {
 				arr[i] = Math.max(nums[i - 1], nums[i + 1]);
-			 else 
-				arr[i] = nums[i];	
+
+			} else {
+				arr[i] = nums[i];
+			}
 		}
 		return arr;
 	}
