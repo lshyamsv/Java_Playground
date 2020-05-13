@@ -1,0 +1,18 @@
+package javapractice;
+
+class Echo {
+	int count = 0;
+
+	void hello() {
+		System.out.println("hellooooo...");
+	}
+}
+
+public class Echotestdrive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
