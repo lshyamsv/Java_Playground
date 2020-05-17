@@ -1,6 +1,0 @@
-package ds.stack;
-
-public class stck {
-	Stack<Integer> stk = new Stack<Integer>();
-
-}
