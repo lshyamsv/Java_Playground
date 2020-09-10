@@ -3,7 +3,7 @@ class Foo {
 
 	public void calcSize(int size1) {
 		System.out.println(size1);
-		this.size = size1;
+		size = size1;
 		System.out.println(size);
 
 	}

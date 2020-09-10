@@ -12,18 +12,12 @@ public class Commonend {
 		  {
 		  for (int j=0;j<b.length;j++)
 		  {
-		    if(a[0]==b[0]||a[a.length-1]==b[b.length-1])
-		    {
-		      return true;
-		    } else
-		    {
-		      return false;
-		    }
+              return a[0] == b[0] || a[a.length - 1] == b[b.length - 1];
 		  }
 		  }return true;
 		}
 
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Commonend arr = new Commonend();
 

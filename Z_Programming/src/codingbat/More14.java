@@ -11,11 +11,8 @@ public class More14 {
 				counterFour++;
 			}
 		}
-		if (counterOne > counterFour) {
-			return true;
-		}
-		return false;
+        return counterOne > counterFour;
 
-	}
+    }
 
 }

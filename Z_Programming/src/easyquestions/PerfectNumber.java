@@ -3,7 +3,7 @@ package easyquestions;
 import java.util.Scanner;
 
 class PerfectNumber {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 
 		int n, i, s = 0;
 

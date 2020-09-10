@@ -20,7 +20,7 @@ public class Firstlast {
 		return true ;
 	}
 
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Firstlast arr = new Firstlast();
 

@@ -11,10 +11,7 @@ public class No14 {
 				hasFour = true;
 			}
 		}
-		if (hasOne == true && hasFour == true) {
-			return false;
-		}
-		return true;
-	}
+        return hasOne != true || hasFour != true;
+    }
 
 }

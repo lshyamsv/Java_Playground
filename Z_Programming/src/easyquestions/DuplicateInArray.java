@@ -15,7 +15,7 @@ public class DuplicateInArray {
 		
 	}
 	
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		DuplicateInArray nums = new DuplicateInArray();
 		int [] numbe = {5,10,15,20,25,30,10,20};

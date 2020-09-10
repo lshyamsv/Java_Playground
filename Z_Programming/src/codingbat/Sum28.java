@@ -8,11 +8,8 @@ public class Sum28 {
 				sum = sum + nums[i];
 			}
 		}
-		if (sum == 8) {
-			return true;
-		}
-		return false;
-	}
+        return sum == 8;
+    }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

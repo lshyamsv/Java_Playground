@@ -3,7 +3,7 @@ package easyquestions;
 import java.util.Scanner;
 
 class Primecopypaste {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 
 		int n, i, j, p = 1;
 

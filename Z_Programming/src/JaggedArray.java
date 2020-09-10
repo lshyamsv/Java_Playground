@@ -4,7 +4,7 @@ public class JaggedArray {
 	//Java Program to illustrate the jagged array   
 	public static void main(String[] args){  
 		//declaring a 2D array with odd columns  
-		int arr[][] = new int[3][];  
+		int[][] arr = new int[3][];
 		arr[0] = new int[3]; 
 		System.out.println(arr[0]);
 		arr[1] = new int[4];

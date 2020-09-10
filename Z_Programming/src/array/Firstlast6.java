@@ -7,15 +7,7 @@ public class Firstlast6 {
 		for(int i=0; i<nums.length;)
 		{
 
-			if(nums[0]==6||nums[nums.length-1]==6)
-			{
-				return true;
-			}
-				
-			else
-			{
-				return false;
-			}
+            return nums[0] == 6 || nums[nums.length - 1] == 6;
 
 		}
 		return true;
@@ -23,7 +15,7 @@ public class Firstlast6 {
 	}
 
 
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		Firstlast6 arr = new Firstlast6();
 		

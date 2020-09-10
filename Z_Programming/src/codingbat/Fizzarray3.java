@@ -6,8 +6,7 @@ public class Fizzarray3 {
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {
 			arr[i] = start++;
-			;
-		}
+        }
 		return arr;
 	}
 

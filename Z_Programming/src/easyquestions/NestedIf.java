@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NestedIf {
 
-	public static void main (String args [])
+	public static void main (String[] args)
 	{
 		float a,b,c;
 		Scanner comp = new Scanner(System.in); 

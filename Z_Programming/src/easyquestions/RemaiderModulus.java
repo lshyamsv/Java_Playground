@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class RemaiderModulus {
 
-	public static void main (String args[])
+	public static void main (String[] args)
 	{
 		int a, b;
 		Scanner mod = new Scanner(System.in);

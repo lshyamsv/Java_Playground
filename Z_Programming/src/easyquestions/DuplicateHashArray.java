@@ -19,7 +19,7 @@ public class DuplicateHashArray {
 	
 	}
 	
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		DuplicateHashArray nums = new DuplicateHashArray();
 		int [] numbe = {5,10,15,20,25,30,10,20};

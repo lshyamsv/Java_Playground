@@ -1,6 +1,6 @@
 public class Operator {
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		// int n=20;
 		// n = n>>1;
 		// System.out.println(n);
@@ -8,7 +8,7 @@ public class Operator {
 		// int count = 0;
 		// System.out.println(count);
 		
-		int intArray[] = new int[10];
+		int[] intArray = new int[10];
 		
 		
 		Pizza[] mediumpizza, largepizza;

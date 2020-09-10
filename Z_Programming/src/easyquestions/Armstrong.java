@@ -3,7 +3,7 @@ package easyquestions;
 import java.util.Scanner;
 
 class Armstrong {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int n, t, r, rev = 0;
 

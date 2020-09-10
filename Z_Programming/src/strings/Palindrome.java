@@ -8,14 +8,8 @@ public class Palindrome {
 		sb.reverse();
 		
 		String comp =  sb.toString();
-		
-		if(s.equals(comp))
-		{
-			return true;
-		} else
-		{
-			return false;
-		}
+
+        return s.equals(comp);
 	}
 	
 		

@@ -35,7 +35,7 @@ public class Atoi {
 			{
 				break;
 			}
-			int digit = (int)(str.charAt(i)-'0');
+			int digit = str.charAt(i)-'0';
 			result = result *10 +digit;
 		}
 

@@ -16,10 +16,7 @@ public class Foundthree {
 				count++;
 			}
 		}
-		if (count == 3)
-			return true;
-		else
-			return false;
+        return count == 3;
 	}
 
 }

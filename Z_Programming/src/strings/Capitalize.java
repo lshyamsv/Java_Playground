@@ -22,7 +22,7 @@ public class Capitalize {
 	return combined;
 	}
 
-	public static void main (String args [])
+	public static void main (String[] args)
 	{
 		Capitalize word = new Capitalize();
 		word.capitalizeString("this is coding");
