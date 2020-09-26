@@ -3,6 +3,8 @@ package Vishwa_Sorting;
 public class Bubblesort {
 
     public static void bubbleSort(int [] arr){
+
+       // long startTime = System.nanoTime();
         int n = arr.length;
 
         // {3,5,1,9,2}
@@ -28,13 +30,15 @@ public class Bubblesort {
 //            }
 //        }
 
-
+//        long endTime = System.nanoTime();
+//        System.out.println("Took "+(endTime - startTime) + " ns");
 
     }
 
     public static void main(String[] args) {
         {
-            int [] arr = {3,5,1,9,2};
+//            int [] arr = {3,5,1,9,2};
+            int [] arr = {9,7,6,5,4,3,2,1};
             Bubblesort.bubbleSort(arr);
             for (int i:arr){
                 System.out.println(i);
