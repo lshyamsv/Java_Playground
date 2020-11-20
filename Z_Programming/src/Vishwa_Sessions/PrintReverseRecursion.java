@@ -1,4 +1,4 @@
-package vishwa_sessions;
+package Vishwa_Sessions;
 
 public class PrintReverseRecursion {
 

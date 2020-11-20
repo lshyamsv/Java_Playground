@@ -10,7 +10,7 @@ public class fibo {
 	}
 
 	public static void main(String[] args) {
-		int n = 10;
+		int n = 5;
 		fibo series = new fibo();
 
 		System.out.println(series.fib(n));
