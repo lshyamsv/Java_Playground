@@ -14,8 +14,12 @@ public class FrequencyBestTImeComplexity {
 //  {1,9,2,3,2} // {1,9,7,8,2} // {1,9,12,8,7}
         int n = arr.length; // n= 5
         for (int i = 0; i < n; i++) {
-           arr[arr[i]] = arr[arr[i]] + n;
+            if (arr[arr[i]] > n) {
+                continue;
+            } else {
+                arr[arr[i]] = arr[arr[i]] + n;
 
+            }
         }
 
         //  one loop for each logic needs to written
