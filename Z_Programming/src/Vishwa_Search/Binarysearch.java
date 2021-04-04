@@ -4,8 +4,8 @@ public class Binarysearch {
 
     public static int binarySearch(int[] arr, int start, int end, int target) {
 
-        start = 0;
-        end = arr.length - 1;
+ //       start = 0;
+ //       end = arr.length - 1;
 
 //        while (start <= end) {
 //            int mid = (start + end) / 2;
